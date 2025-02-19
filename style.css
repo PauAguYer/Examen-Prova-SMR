@@ -1,0 +1,93 @@
+body{
+    background-color: beige;
+}
+p.title a{
+    color: orange;
+    text-decoration: underline blue;
+    font-weight: bold;
+    height: 25%;
+    font-size: x-large;
+}
+
+header{
+    width: 100%;
+    height: 70px;
+    border-top: black 1px solid;
+    border-bottom: black 1px solid;
+    text-align: center;
+}
+
+
+section.SMR{
+    background-color: pink;
+}
+
+section.SMR div img{
+    margin-left: 20%;
+}
+
+section.SMR div{
+    background-color: pink;
+}
+
+section.SMR div p {
+    margin-left: 20%;
+    background-color: pink;
+}
+section.SMR div p {
+    margin-left: 20%;
+    background-color: pink;
+}
+span.s1 div{
+    background-color: gray;
+}
+
+
+span.s1 div img{
+    margin-left: 40%;
+}
+
+span.s1 div p a{
+    margin-left: 40%;
+}
+
+
+span.ASIR div{
+    background-color: aqua;
+}
+
+span.ASIR div img{
+    margin-left: 65%;
+}
+
+span.ASIR div p a{
+    margin-left: 65%;
+}
+
+footer div{
+    text-align: center;
+    background-color: yellow;
+    color: blue;
+}
+
+span.nombre{
+    color: red;
+}
+
+
+h1.blue{
+    color: blue;
+}
+
+
+table{
+    border: 1px black solid;
+    width: 50%;
+}
+
+th, td{
+    border: black 1px solid;
+    color: red;
+    text-align: center;
+    font-weight: bold;
+}

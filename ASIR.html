@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script>
+        function funcion_apellido(){
+            var apellido = document.getElementById("apellido").value;
+            var nombre = document.getElementById("nombre").value;
+            alert('Bienvenido ' + nombre + ' ' + apellido + ', te vas a graduar de ASIR');
+        }
+    </script>
+
+</head>
+<body>
+    <header>
+
+        <p class="title"><a href="https://portal.edu.gva.es/ieselgrao/?page_id=690&lang=es">IES El Grao</a></p>
+    </header>
+
+    <form action="ejemplo.php" method="get">
+        <p>Nombre: <input type="text" name="nombre" id="nombre" size="40"></p>
+        <p>Apellido: <input type="text" name="apellido" id="apellido" size="40" onblur="funcion_apellido()"></p>
+        <p>Año de nacimiento: <input type="number" name="nacido" min="1900"></p>
+        <p>
+          <input type="submit" value="Enviar">
+          <input type="reset" value="Borrar">
+        </p>
+    </form>
+        
+      </form>
+      
+    
+    <footer>
+        <div>
+            <hr>
+        <p>Web desarrollada per <span class="nombre">Pau Aguilar</span></p>
+        <hr>
+    </div>
+    </footer>
+</body>
+</html>
